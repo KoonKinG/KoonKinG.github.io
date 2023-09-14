@@ -347,7 +347,7 @@ h6 {
 
 .nav-tabs-bordered .nav-link.active {
   background-color: #fff;
-  color: #4154f1;
+  color: #fdfdff;
   border-bottom: 2px solid #4154f1;
 }
 
@@ -372,7 +372,7 @@ h6 {
 .logo span {
   font-size: 26px;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
   font-family: "Nunito", sans-serif;
 }
 
@@ -381,7 +381,7 @@ h6 {
   z-index: 997;
   height: 60px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: #6803ac;
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
@@ -474,7 +474,7 @@ h6 {
 }
 
 .header-nav .nav-profile {
-  color: #012970;
+  color: #ffffff;
 }
 
 .header-nav .nav-profile img {
@@ -610,7 +610,7 @@ h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: #a85fe4;
 }
 
 @media (max-width: 1199px) {
@@ -622,7 +622,7 @@ h6 {
 .sidebar::-webkit-scrollbar {
   width: 5px;
   height: 8px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .sidebar::-webkit-scrollbar-thumb {
@@ -686,7 +686,7 @@ h6 {
   font-weight: 600;
   color: #4154f1;
   transition: 0.3;
-  background: #f6f9ff;
+  background: #ffffff;
   padding: 10px 15px;
   border-radius: 4px;
 }
@@ -698,8 +698,8 @@ h6 {
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
+  color: #ffffff;
+  background: #a85fe4;
 }
 
 .sidebar-nav .nav-link.collapsed i {
@@ -707,8 +707,8 @@ h6 {
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  color: #f7f8ff;
+  background: #890add;
 }
 
 .sidebar-nav .nav-link:hover i {
@@ -1230,4 +1230,18 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.table a.table-link.danger {
+  color: #e74c3c;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(104, 3, 172);
+  border-color: #9635bd;
+}
+.btn-primary:hover {
+  color: #f7f8ff;
+  background: #890add;
 }
